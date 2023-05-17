@@ -174,7 +174,7 @@
                 "step": 62,
                 "status": 75,
                 "id": 60,
-                "email": 248
+                "email": 183
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -1052,8 +1052,155 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 35,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 27,
+              "originalBottomRow": 34,
               "minDynamicHeight": 10
+            },
+            {
+              "mobileBottomRow": 39,
+              "widgetName": "Audio1",
+              "displayName": "Audio",
+              "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+              "searchTags": [
+                "mp3",
+                "sound",
+                "wave",
+                "player"
+              ],
+              "topRow": 35,
+              "bottomRow": 39,
+              "parentRowSpace": 10,
+              "type": "AUDIO_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 63,
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "leftColumn": 35,
+              "dynamicBindingPathList": [],
+              "key": "423qkajda9",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "widgetId": "5o79n60dhx",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 35,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 35,
+              "mobileLeftColumn": 35,
+              "originalBottomRow": 39,
+              "autoPlay": false
+            },
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 47,
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 40,
+              "bottomRow": 47,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 51,
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "leftColumn": 35,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "1fimtrqgo9",
+              "isDeprecated": false,
+              "rightColumn": 51,
+              "widgetId": "n0ffmwg64e",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 40,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 40,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 35,
+              "originalBottomRow": 47,
+              "iconColor": "white"
+            },
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 55,
+              "widgetName": "RadioGroup1",
+              "displayName": "Radio Group",
+              "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+              "searchTags": [
+                "choice"
+              ],
+              "topRow": 49,
+              "bottomRow": 56,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "RADIO_GROUP_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 55,
+              "defaultOptionValue": "Y",
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "leftColumn": 35,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": [
+                {
+                  "label": "Yes",
+                  "value": "Y"
+                },
+                {
+                  "label": "No",
+                  "value": "N"
+                }
+              ],
+              "isDisabled": false,
+              "key": "66iau716kt",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 55,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "d0j3mt9ly3",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 49,
+              "originalTopRow": 49,
+              "mobileLeftColumn": 35,
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 55,
+              "isInline": true,
+              "alignment": "left",
+              "minDynamicHeight": 4
             }
           ]
         },
